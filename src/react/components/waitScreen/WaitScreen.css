@@ -1,0 +1,23 @@
+.waitScreen {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.waitMessage {
+  display: flex;
+  padding: 2em;
+  margin: 4em;
+  border-radius: 1em;
+  background-color: var(--battleshipNavyBackground);
+  border: 2px solid var(--battleshipBlueColumnLines);
+  font-weight: bold;
+}

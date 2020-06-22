@@ -1,0 +1,65 @@
+:root {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-blend-mode: lighten;
+
+  /* images */
+  background-image: url(../../Battleship-image/backgroundimage.jpg);
+
+  --shipSquare: 6;
+
+  /*text colors */
+
+  --normalText: blue;
+  --highLightText: purple;
+
+  /*theme colors */
+
+  --accentColorDark: seagreen;
+  --accentColorLight: yellow;
+  --accentColorAlternate: maroon;
+
+  --unsunkShip: green;
+  --sunkShip: darkgray;
+
+  --torpedoHit: red;
+  --torpedoMiss: turquoise;
+
+  /* pirate theme colors */
+
+  --battleshipPurple: #6866ee;
+  --battleshipRed: #ea3100;
+  --battleshipNavy: #364d6f;
+  --battleshipNavyBackground: #364d6f90;
+  --battleshipBlueColumnLines: #3D99DC;
+
+  /* changing cursors */
+  --cursorImage: auto;
+  /* --selectedShip: url(sillyimage.png) */
+}
+
+h1 {
+  --h: 80vw;
+  font-size: calc((var(--h) / 9));
+  margin: 0;
+}
+
+h2 {
+  --h: 80vw;
+  font-size: calc((var(--h) / 11));
+  margin: 0;
+}
+
+h3 {
+  --h: 80vw;
+  font-size: calc((var(--h) / 17));
+  margin: 0;
+}
+
+p {
+  --h: 80vw;
+  font-size: calc((var(--h) / 24));
+}

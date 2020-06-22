@@ -1,0 +1,26 @@
+#menu {
+  /* background-color: lightskyblue; */
+  display: flex;
+  /* justify-content: space-between;  */
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1em;
+  border-radius: 1em;
+  align-self: stretch;
+  margin-left: 82%;
+  margin-bottom: 90%;
+  /* margin: 20px; */
+  position: fixed;
+}
+
+/* #menu-links {
+  display: flex;
+  padding-left: 1em;
+} */
+
+#menu-links a {
+  padding-right: 0.5em;
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
