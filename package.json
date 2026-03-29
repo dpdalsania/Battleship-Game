@@ -36,6 +36,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "dependency-cruiser": "^6.1.0"
+    "dependency-cruiser": "^17.3.7"
   }
 }
